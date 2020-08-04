@@ -4,7 +4,7 @@ function ButtonLink(props) {
     //props => (className: "nome da classe", href: "/")
 
     return (
-        <a href="{props.href}" className="{props.className}" >
+        <a href={props.href} className={props.className} >
             Novo vídeo
         </a>
     )

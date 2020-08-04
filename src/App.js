@@ -1,9 +1,10 @@
 import React from 'react';
 import Menu from './components/Menu';
+import BannerMain from './components/BannerMain';
 
 function App() {
   return (
-    <div>
+    <div style={{background: "#141414"}}>
       <Menu />
     </div>
   );
